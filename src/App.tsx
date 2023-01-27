@@ -10,7 +10,7 @@ function App() {
         <Card title="Memo App" url="memo-app" imgURL={MemoAppPNG} />
         <Card title="One Canvas" url="one-canvas" imgURL={OneCanvasPNG} />
         <Card
-          title="ViteでLive2D SDK for Webのサンプルを動かす"
+          title="React,TypeScript,ViteでLive2D SDK for Webのサンプルを動かす"
           url="blog"
           imgURL={Live2DReactPNG}
         />
