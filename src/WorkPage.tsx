@@ -27,7 +27,7 @@ function WorkPage(props: Props) {
       <div className="flex w-full flex-col items-center justify-center p-8 text-center lg:w-1/2">
         <article>
           <h1 className="my-4 text-2xl font-bold">{props.title}</h1>
-          <pre className="text-gray-700 mb-4 w-full text-center font-sans leading-normal break-words whitespace-pre-wrap">
+          <pre className="text-gray-700 mb-4 w-full whitespace-pre-wrap break-words text-center font-sans leading-normal">
             {props.description}
           </pre>
         </article>
