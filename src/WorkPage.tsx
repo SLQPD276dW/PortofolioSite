@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 type Props = {
   title: string;
   imgURL: string;
-  slidesURL: string;
   siteURL?: string;
   repositoryURL: string;
   description: string;
