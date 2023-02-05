@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Skills from './Skills';
 import Profile from './Profile';
 import Blog from './Blog';
+import ViteWebGL2Template from './ViteWebGL2Template';
 
 function RouterConfig() {
   return (
@@ -19,6 +20,7 @@ function RouterConfig() {
           <Route path="skills" element={<Skills />} />
           <Route path="profile" element={<Profile />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="webgl2vitetemplate" element={<ViteWebGL2Template />} />
         </Routes>
       </BrowserRouter>
     </>

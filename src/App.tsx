@@ -2,6 +2,7 @@ import Card from './Card';
 import MemoAppPNG from './assets/memoapp.png';
 import OneCanvasPNG from './assets/onecanvas.png';
 import Live2DReactPNG from './assets/live2d_react.png';
+import ViteWebGL2PNG from './assets/vitewebgl2.png';
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
           title="React,TypeScript,ViteでLive2D SDK for Webのサンプルを動かす"
           url="blog"
           imgURL={Live2DReactPNG}
+        />
+        <Card
+          title="Vite+WebGL2 テンプレート"
+          url="webgl2vitetemplate"
+          imgURL={ViteWebGL2PNG}
         />
       </div>
     </section>
